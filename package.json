@@ -1,15 +1,18 @@
 {
-  "name": "resume",
+  "name": "resume-website",
   "version": "1.0.0",
-  "description": "This is my resume.",
-  "main": "index.js",
+  "description": "Personal Resume Website",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "express": "^4.18.2"
   }
 }
